@@ -1,0 +1,378 @@
+@media screen and (max-width: 640px){
+  /*このコメント行の下に、スマートフォン用のcssを記述*/
+   body{
+     width: 100%;
+     margin: 0px;
+     font-size: 1em;
+     text-align: center;
+   }
+
+   img{
+     max-width: 100%;
+     height: auto;
+     margin: 12px 0px 12px 0px;
+     width:  /***/ :auto;
+   }
+
+   h2,h3{
+     font-size: 24px;
+   }
+
+   p{
+     font-size: 14px;
+   }
+
+   ul{
+     list-style: none;
+   }
+
+   table{
+     margin: 0 auto;
+     margin-bottom: 14px;
+     width: auto;
+     height: auto;
+   }
+
+   table th{
+     line-height: 87px;
+     border: 1px solid #000000;
+     text-align: center;
+   }
+
+   table td{
+     border: 1px solid #000000;
+
+   }
+
+   #top {
+    width: 90%;
+    height: auto;
+   
+    text-align: center;
+   }
+
+   div#question dl dt{
+     font-size: 12px;
+     font-weight: bold;
+     text-align: left;
+     background: url(img/question.png) no-repeat 0 0 ;
+     padding-left: 25px; 
+     margin: 20px 0px 0px 10px;
+     background-size: contain;
+   }
+
+
+   div#question dl dd{
+     width: 90%;
+     height: auto;
+     font-size: 12px;
+     text-align: left;
+     background: url(img/answer.png) no-repeat 0 0;
+     padding-left: 25px;
+     margin: 20px 0px 0px 10px;
+     background-size: auto 50%;
+   }
+
+   #footer{
+     width: 100%;
+     height: auto;
+     font-size: 10px;
+     background-color: #3b3d40;
+     color: #FFFFFF;
+     text-align: center;
+     line-height: 10px;
+     white-space: nowrap;
+   }
+}
+
+
+#butten{
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#butten:hover{
+  opacity : 0.7;
+}
+
+#heading {
+  width: 100%;
+  height: 155px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+
+
+@media screen and (min-width: 641px){
+  /*このコメント行の下に、スマートフォン用のcssを記述*/
+
+body {
+	margin: 0 auto;
+	width: 100%;
+	color:#474747;
+	font-size: 14px;
+	line-height: 1.4em;
+	font-family: HiraKakuPro "メイリオ", "Meiryo", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+a {
+	color:#474747;
+	text-decoration:none;
+}
+
+#butten{
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#butten:hover{
+  opacity : 0.7;
+}
+
+#heading {
+  width: 100%;
+  height: 155px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+
+.box-shadow{
+	background-color: #ffffff;
+	box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* micro clearfix */
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+.cf:after {clear: both;}
+.cf {*zoom: 1;}
+
+
+header h1 img{
+  width: 90％;
+  height: 100%;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+
+#trouble{
+  width: 100%;
+  text-align: center;
+}
+
+#trouble h2{
+   font-weight: bold;
+   color: #00000;
+   font-size: 48px;
+   line-height: 26px;
+   margin-bottom:50px;
+}
+
+#trouble img{
+  width: 100%;
+  height: 441px;
+}
+div#refutation{
+  text-align: center;
+}
+
+#refutation h2{
+  width: 100%;
+  font-weight: bold;
+  color: #000000;
+  font-size:48px;
+  margin-bottom: 50px;
+}
+
+#refutation div img{
+    width: 100%;
+    height: 698px;
+    margin-bottom: 50px;
+}
+
+#refutation p{
+  width: 710px;
+  height: 81px;
+  text-align: center;
+  display: inline-block;
+  color: #000000;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+  margin: 0 auto;
+}
+
+#customers {
+  width: 100%;
+  height: Auto;
+}
+
+#customers ul#list li{
+  width: 860px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+#customers ul#list li dt{
+  width: 433px;
+  height: 300px;
+  float: left;
+  margin-bottom: 50px;
+}
+
+#customers h3{
+  color: #3b3d40;
+  font-size: 52px;
+  font-weight: bold;
+  line-height: 55px;
+  margin-left: 50px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+div #point{
+  width: 992px;
+  height: 592px;
+ margin: 50px auto;
+ text-align: center; 
+}
+
+div#point.item{
+  margin: 50px auto;
+}
+
+div#point .image{
+  width: 417px;
+  height: 330px;
+  float: left;
+  margin: 0px 62px ;
+}
+ 
+div#point .text{
+  width: 380px;
+  height: 323px;
+  color: #000000;
+  transform: scaleX(1.045);
+  margin-left: 0px;
+  overflow: hidden;
+  text-align: left;
+}
+div#price{
+  text-align: center;
+}
+
+div#price h2{
+  color: #000000;
+  font-size: 48px;
+  margin: 50px;
+}
+
+table{
+  border-collapse: collapse;
+  margin: 0 auto;
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+table th{
+  width: 394px;
+  height: 87px;
+  line-height: 87px;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+table td{
+  width: 605px;
+  height: 87px;
+  line-height: 87px;
+  border: 1px solid #000000;
+  text-align: center;
+ 
+}
+
+
+div#repayment{
+  text-align: center;
+}
+
+#repayment img{
+  width: 75%;
+  height: auto;
+  margin-bottom: 50px;
+  margin: 10px 10px 50px 10px;
+  text-align: center;
+}
+
+
+div#question dl dt{
+  color: #000000;
+  font-size: 36px;
+  font-weight: bold;
+  background: url(img/question.png) no-repeat 0 0;
+  line-height: 50px;
+  margin: 0px 0px 50px 145px;
+  padding: 0px 0px 0px 100px;
+  
+}
+
+div#question dl dd{
+	width: 75%;
+	height: auto;
+	color: #040404;
+	font-size: 24px;
+	font-weight: bold;
+	background: url(img/answer.png) no-repeat 0 0;
+	margin-left: 145px;
+	line-height: 24px;
+	margin-top: 50px;
+	padding: 15px 0px 15px 100px;
+}
+
+footer{
+  width: 100%;
+  height: 144px;
+  background-color: #3b3d40;
+  color:#FFFFFF;
+  text-align: center;
+  line-height: 144px;
+  margin-top: 50px;
+}
+
+
+
+#heading h1{
+  width: 100%;
+  font-weight: bold;
+  color: #000000;
+  font-size:48px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  text-align: center;
+}
+
